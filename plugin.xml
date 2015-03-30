@@ -20,11 +20,11 @@
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="BeaconPlugin">
-        <param name="android-package" value="com.example.plugin.Hello"/>
+        <param name="android-package" value="com.example.plugin.BeaconPlugin"/>
       </feature>
     </config-file>
 
-    <source-file src="src/android/Hello.java" target-dir="src/com/example/plugin/"/>
+    <source-file src="src/android/BeaconPlugin.java" target-dir="src/com/example/plugin/"/>
   </platform>
 
   
